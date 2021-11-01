@@ -11,8 +11,11 @@ dependencies:
   flutter:
     sdk: flutter
 
-  shared_preferences: ^2.0.8
-
+  shared_preferences:
+    git:
+      url: https://github.com/hoanglm4/flutter_shared_preferences.git
+      ref: fe9d2ab168562abe452ea43b4ace10641749d959
+      
 dev_dependencies:
   flutter_test:
     sdk: flutter
